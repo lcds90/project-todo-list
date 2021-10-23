@@ -5,8 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Site de Lista de Tarefas (Todo List) realizado para projeto avaliativo na Trybe">
-    <script src="portfolio.js"></script>
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" href="style.css">
     <title>Projeto Todo List</title>
@@ -16,13 +14,15 @@
     <main class="main">
         <header class="header">
             <h1>Minha Lista de Tarefas</h1>
-            <span id="funcionamento">Clique duas vezes em um item para marcá-lo como <span class="text-completed">completo</span></span>
+            <span id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</span>
         </header>
         <article class="article">
+            
             <section class="section-inputs">
                 <div class="inputs">
                     <label id="label-texto-tarefa" for="texto-tarefa">Menu</label>
-                    <input type="text" placeholder="Digite a tarefa" id="texto-tarefa" required>
+                    <input type="text" placeholder="Digite a tarefa"
+                        id="texto-tarefa">
                 </div>
                 <div class="buttons">
                     <div>
@@ -43,18 +43,28 @@
                     <div>
                         <button class="button" id="mover-cima">Mover para cima</button>
                     </div>
+                    
                     <div>
                         <button class="button" id="mover-baixo">Mover para baixo</button>
+
                     </div>
+                </div>
                 </div>
             </section>
             <section class="section-tasks">
+               <!--  <div>
+                    <button class="buttonMoviment" id="mover-cima">Mover para cima</button>
+                </div>
+                <div>
+
+                    <button class="buttonMoviment" id="mover-baixo">Mover para baixo</button>
+                </div> -->
                 <ol id="lista-tarefas">
                 </ol>
             </section>
         </article>
     </main>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
     <script src="script.js"></script>
 </body>
