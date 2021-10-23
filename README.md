@@ -1,6 +1,6 @@
 <div align=center>
 
-# 🟢 Trybe - [Todo List](https://trybe-pixels-art.vercel.app/) 🟢
+# 🟢 Trybe - [Todo List](https://lcds90-todo-list.vercel.app/) 🟢
 
 Repositório possuí projeto desenvolvido no período que estive na <b>Trybe</b>, abordando sobre conceitos de estilização, manipulação do DOM com Javascript e utilização do Local Storage para guardar notas referente ao usuário que está na aplicação.
 
